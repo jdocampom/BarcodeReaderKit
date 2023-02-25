@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "uikitextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jdocampom/UIKitExtensions",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d2d38a2c62009e77bbb480a2708f4219b905102c"
+      }
+    }
+  ],
+  "version" : 2
+}
