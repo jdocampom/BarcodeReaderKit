@@ -113,7 +113,7 @@ extension BarcodeReaderSheet {
         statusTimer = nil
     }
     
-    /// Updates the text displayed on `statusLabel` according to the current status of the `InkBarcodeReader` instance.
+    /// Updates the text displayed on `statusLabel` according to the current status of the `BarcodeReader` instance.
     private func updateStatusLabel() {
         switch barcodeProcessor.status {
         case .preparing:

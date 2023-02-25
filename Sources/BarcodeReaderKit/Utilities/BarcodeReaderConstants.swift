@@ -1,5 +1,5 @@
 //
-//  InkBarcodeReaderConstants.swift
+//  BarcodeReaderConstants.swift
 //  BarcodeReaderKit
 //
 //  Created by Juan Diego Ocampo on 2023-02-20.

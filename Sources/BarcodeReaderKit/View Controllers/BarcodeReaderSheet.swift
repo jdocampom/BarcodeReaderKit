@@ -160,7 +160,7 @@ import Vision
         return button
     }()
     
-    /// The `UIButton` object that is used to configure the device orientation of the current instance of `InkBarcodeScannerViewController`.
+    /// The `UIButton` object that is used to configure the device orientation of the current instance of `BarcodeScannerViewController`.
     private(set) lazy var settingsButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -344,10 +344,10 @@ import Vision
         fatalError("BarcodeScannerView: init(coder:) has not been implemented.")
     }
     
-    /// Called when an instance of `InkBarcodeScannerViewController` gets deallocated from memory.
+    /// Called when an instance of `BarcodeScannerViewController` gets deallocated from memory.
     deinit {
         resultManager = nil
-        print("An instance of InkBarcodeScannerViewController has been deallocated from memory.")
+        print("An instance of BarcodeScannerViewController has been deallocated from memory.")
     }
     
     /// Called after the controller’s view is loaded into memory.
